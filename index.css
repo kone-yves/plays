@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #A52A2A;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    color: #A52A2A;
+    font-family: monospace;
+}
+button:active{
+    scale:0.99;
+}
+.radio{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
